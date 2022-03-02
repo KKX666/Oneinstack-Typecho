@@ -61,6 +61,12 @@ cd oneinstack
 安装Typecho
 ------------------------------
 可自行获取最新的版本号：https://typecho.org/download 然后自行修改一下以下脚本版本号就可以了 你也可以直接使用以下脚本
+
+进入网站目录指令
+```
+cd /data/wwwroot/你的站点
+```
+Typecho安装指令
 ```
 wget https://github.com/typecho/typecho/releases/download/v1.1-17.10.30-release/1.1.17.10.30.-release.tar.gz && tar xzf 1.1.17.10.30.-release.tar.gz && cd build && mv * .. && cd .. && rm -rf 1.1.17.10.30.-release.tar.gz build && chown -R www:www *
 ```
