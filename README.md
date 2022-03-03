@@ -77,3 +77,13 @@ wget https://github.com/typecho/typecho/releases/download/v1.1-17.10.30-release/
 至此整个搭建结束
 ------------------------------------
 Oneinstack 一些使用方法可自行去官网查询：https://oneinstack.com/install/
+
+删除虚拟主机指令
+```
+rm -rf /usr/local/nginx/conf/vhost/kkx666.cf.conf
+```
+删除网站目录指令
+```
+rm -rf /data/wwwroot/kkx666.cf
+```
+
