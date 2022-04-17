@@ -87,3 +87,10 @@ rm -rf /usr/local/nginx/conf/vhost/kkx666.cf.conf
 rm -rf /data/wwwroot/kkx666.cf
 ```
 
+Typecho博客后台管理无法登录
+
+解决方法：找到网站源文件config.inc.php，编辑并加入以下代码
+```
+/** 开启HTTPS */
+define('__TYPECHO_SECURE__',true);
+```
